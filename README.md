@@ -58,7 +58,7 @@ This project is designed as a practical admin panel for managing courses and is 
 ├── server.js
 └── package.json
 
-````
+```
 
 ---
 
@@ -68,7 +68,7 @@ Courses can be searched using a case-insensitive keyword search:
 
 ```js
 title: { $regex: keyword, $options: "i" }
-````
+```
 
 ---
 
@@ -101,10 +101,23 @@ npm run dev
 
 ---
 
+## 🖥️ Project Preview
+
+<p align="center">
+  <img src="./public/asset/images/preview.jpg" alt="Course Management Panel Preview" width="85%" />
+</p>
+
+<p align="center">
+  <strong>Course Management Admin Panel</strong><br/>
+  Built with Node.js, Express, MongoDB & EJS
+</p>
+
+---
+
 ## 📌 Notes
 
-* Authentication and user management are not included in this project.
-* This project focuses on CRUD operations, MVC structure, and server-side rendering.
+- Authentication and user management are not included in this project.
+- This project focuses on CRUD operations, MVC structure, and server-side rendering.
 
 ---
 
